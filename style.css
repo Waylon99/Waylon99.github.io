@@ -1,0 +1,59 @@
+/*
+* @Author: Waylon
+* @Date:   2020-06-04 17:20:52
+* @Last Modified by:   Waylon
+* @Last Modified time: 2020-06-04 18:32:24
+*/
+
+section.wrapper{
+    width: 800px;
+    height: 1200px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+section.wrapper .content{
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+section.wrapper .content .personal-info{
+    width: 100%;
+    height: 80px;
+}
+section.wrapper .content h1.name{
+    font-size: 30px;
+    margin: 10px 0;
+}
+section.wrapper .content .personal-info ul.info-list{
+    width: 100%;
+    height: 100%;
+}
+section.wrapper .content .personal-info ul.info-list li{
+    margin-bottom: 6px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.email,.phone{
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.email,.phone{
+    padding-right: 30px;
+}
+span.sex{
+    padding-right: 157px;
+}
+h1.catTitle{
+    color:blue;
+    border-bottom: 1px solid blue;
+}
+ul.eduBgInfor>li{
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align:justify;
+}
+ul.eduBgInfor>li span.learnTime{
+    padding-right: 40px;
+}
